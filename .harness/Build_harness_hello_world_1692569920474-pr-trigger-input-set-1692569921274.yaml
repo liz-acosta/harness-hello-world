@@ -1,0 +1,14 @@
+inputSet:
+  name: Build_harness_hello_world_1692569920474-pr-trigger-input-set
+  identifier: Build_harness_hello_world_1692569920474prtriggerinputset
+  orgIdentifier: default
+  projectIdentifier: default_project
+  pipeline:
+    identifier: Build_harness_hello_world_1692569920474
+    properties:
+      ci:
+        codebase:
+          build:
+            type: PR
+            spec:
+              number: <+trigger.prNumber>
